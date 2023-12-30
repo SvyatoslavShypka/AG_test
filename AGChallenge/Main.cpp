@@ -25,6 +25,7 @@ void vRunExperiment(CLFLnetEvaluator &cConfiguredEvaluator)
 
 		c_time_counter.vSetStartNow();
 
+
 		c_optimizer.vInitialize();
 
 		c_time_counter.bGetTimePassed(&d_time_passed);
